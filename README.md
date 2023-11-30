@@ -90,6 +90,6 @@ Similarly you can try `http POST :8080/claude/` or `http POST :8080/jurassic/inv
 in fact you can call the stable diffusion endpoint `http POST :8080/stablediffusion/invoke` 
 See an example below:
 
-![img.png](assets/img.pngimg.png)
+![img.png](assets/img.png)
 
 ```bash
