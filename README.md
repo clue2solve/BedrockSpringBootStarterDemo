@@ -1,6 +1,6 @@
-# Bedrock Demo
+# Demo for Spring Cloud AWS Bedrock Starter 
 
-Leverages Spring Cloud AWS Bedrock Starter.
+This is a Companion Demo Project that leverages [Spring Cloud AWS Bedrock Starter](https://github.com/clue2solve/spring-cloud-aws-bedrock-starter). 
 
 ## Prerequisites
 
@@ -20,6 +20,17 @@ sdk install java 21.0.1-librca
 sdk install maven 3.9.5
 ```
 > Accept these as the default versions
+
+Include the right Maven dependency into your project
+```xml
+<dependency>
+    <groupId>io.clue2solve</groupId>
+    <artifactId>spring-cloud-aws-bedrock-starter</artifactId>
+    <version>0.0.2-SNAPSHOT</version>
+</dependency>
+```
+
+or build the Starter from sources and install it into your local Maven repository
 
 
 ## Clone
