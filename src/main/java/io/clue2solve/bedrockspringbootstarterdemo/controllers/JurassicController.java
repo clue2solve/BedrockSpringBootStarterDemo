@@ -1,28 +1,26 @@
 package io.clue2solve.bedrockspringbootstarterdemo.controllers;
 
 import io.clue2solve.aws.bedrock.springboot.starter.service.BedrockService;
+import io.clue2solve.aws.bedrock.springboot.starter.service.impl.JurassicService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/claude")
-public class ClaudeController {
+@RequestMapping("/jurassic")
+public class JurassicController {
 
     private final BedrockService service;
 
     @Autowired
-    public ClaudeController(@Qualifier("claudeService") BedrockService service) {
+    public JurassicController(@Qualifier("jurassicService") BedrockService service) {
         this.service = service;
     }
 
     @PostMapping("/invoke")
-    public String invokeClaude(@RequestBody String prompt) throws JsonProcessingException {
+    public String invokeJurassic(@RequestBody String prompt) throws JsonProcessingException {
         return service.invoke(prompt);
     }
 }
