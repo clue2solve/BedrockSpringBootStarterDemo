@@ -4,6 +4,8 @@ Leverages Spring Cloud AWS Bedrock Starter.
 
 ## Prerequisites
 
+Make use of an existing or sign up for a new, AWS account. You will need credentials with appropriate IAM role and permissions. (We've tested this with an IAM user with a role that has a PowerUserAccess AWS managed policy attached).
+
 Download and install the following CLIs
 
 * [gh](https://github.com/cli/cli#installation) 2.39.2 or better
