@@ -16,7 +16,7 @@ Download and install a JDK and Maven
 sdk install java 21.0.1-librca
 sdk install maven 3.9.5
 ```
-> Accept these ase the default versions
+> Accept these as the default versions
 
 
 ## Clone
