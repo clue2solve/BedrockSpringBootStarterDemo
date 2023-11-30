@@ -64,7 +64,7 @@ mvn spring-boot:run
 ## Interact with service endpoint
 
 ```bash
-❯ http POST :8080/invoke data="How much on average does an African lion weigh in pounds"
+❯ http POST :8080/claude/invoke data="How much on average does an African lion weigh in pounds"
 HTTP/1.1 200
 Connection: keep-alive
 Content-Length: 440
@@ -84,3 +84,12 @@ Keep-Alive: timeout=60
 
 - The average weight for an adult female African lion is about 280
 ```
+
+Similarly you can try `http POST :8080/claude/` or `http POST :8080/jurassic/invoke` or `http POST :8080/llama/invoke` 
+
+in fact you can call the stable diffusion endpoint `http POST :8080/stablediffusion/invoke` 
+See an example below:
+
+![img.png](assets/img.pngimg.png)
+
+```bash
