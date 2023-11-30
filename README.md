@@ -85,7 +85,7 @@ Keep-Alive: timeout=60
 - The average weight for an adult female African lion is about 280
 ```
 
-Similarly you can try `http POST :8080/claude/` or `http POST :8080/jurassic/invoke` or `http POST :8080/llama/invoke` 
+Similarly you can try `http POST :8080/titan/invoke` or `http POST :8080/jurassic/invoke` or `http POST :8080/llama/invoke` 
 
 in fact you can call the stable diffusion endpoint `http POST :8080/stablediffusion/invoke` 
 See an example below:
