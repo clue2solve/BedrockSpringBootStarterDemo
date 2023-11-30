@@ -9,6 +9,7 @@ Download and install the following CLIs
 * [gh](https://github.com/cli/cli#installation) 2.39.2 or better
 * [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) 2.39.3 or better
 * [sdkman](https://sdkman.io/install) 5.18.2 or better
+* [http](https://httpie.io/docs/cli/installation)
 
 Download and install a JDK and Maven
 
