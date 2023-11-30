@@ -72,7 +72,9 @@ mvn spring-boot:run
 > Press Ctrl+C to quit
 
 
-## Interact with service endpoint
+## Interact with service endpoints
+
+### Claude
 
 ```bash
 ❯ http POST :8080/claude/invoke data="How much on average does an African lion weigh in pounds"
@@ -96,11 +98,30 @@ Keep-Alive: timeout=60
 - The average weight for an adult female African lion is about 280
 ```
 
-Similarly you can try `http POST :8080/titan/invoke` or `http POST :8080/jurassic/invoke` or `http POST :8080/llama/invoke` 
-
-in fact you can call the stable diffusion endpoint `http POST :8080/stablediffusion/invoke` 
-See an example below:
-
-![img.png](assets/img.png)
+### Jurassic
 
 ```bash
+❯ http POST :8080/jurassic/invoke
+```
+
+### Llama
+
+```bash
+❯ http POST :8080/llama/invoke
+```
+
+### Titan
+
+```bash
+❯ http POST :8080/titan/invoke
+```
+
+### StableDiffusion
+
+```bash
+❯ http POST :8080/stablediffusion/invoke
+```
+
+Or with the [hoppscotch](https://docs.hoppscotch.io/documentation/clients/desktop) desktop application:
+
+![Stable Diffusion example](assets/img.png)
