@@ -45,7 +45,7 @@ mvn clean install
 export AWS_ACCESS_KEY_ID=
 export AWS_SECRET_ACCESS_KEY=
 ```
-> Make certain your are using authorized AWS credentials
+> Make certain you are using authorized AWS credentials
 
 
 ## Setup Bedrock
